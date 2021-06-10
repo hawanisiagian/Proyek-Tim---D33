@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .headerLeft {
+    float: left;
+    margin-top: 10px;
+    color:rgb(0, 0, 0);
+  }
+  .headerLogo {
+    font-size: 25px;
+    color:deepskyblue;
+  }
+  .headerLogoDesc {
+    font-size: 10px;
+  }
+  
+  .headerRight {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .headerRight a {
+    line-height: 65px;
+    padding: 0 25px;
+    color:rgb(0, 0, 0);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  .menu-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;    
+    display: none;
+  }
+     
+  .signup {
+    background-color: deepskyblue;
+  }
+  .topWrapper {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 180px 0 100px 0;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topBg {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  .topContent {
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    color:white;
+  }
+  
+  .topWrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  
+  .topWrapper p {
+    margin-bottom: 3px;
+  }
+  
+  .btnWrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btWrapper p {
+    margin: 10px 0;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+
+  /*-------BODY------------*/
+  /* CSS Document */
+
+body {
+    font-family: "Avenir Next";
+  }
+  
+  .main {
+    padding: 100px 80px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .contents {
+    height: 500px;
+    margin-top: 100px;
+  }
+  a:hover {
+    background-color: rgb(0, 255, 234);
+  }
+  
+  
+  .section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+  }
+  
+  .contents-item {
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .contents-item p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .contact-form{
+    padding-top:100px;
+  }
+  
+  .footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  /*--BAGIAN FOOTER--*/
+footer {
+    background-color: whitesmoke;
+    height: 300px;
+    padding: 40px;
+    
+  }
+
+.footer-logotk {
+    color: deepskyblue;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Lucida Grande";
+}
+
+.footer-slogan{
+    color:black;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    line-height: 5%;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Lucida Grande";
+}
+
+.footer-address{
+    color: black; 
+    font-size: 20px;
+    text-align: center;
+    line-height: 110%;
+    margin: 20px 0;
+}
+
+.footer-sosmed {
+    text-align: center;
+    padding-left: 38%;
+}
+
+.footer-sosmed img{
+    width: 40px;
+    padding-top: 20px;
+
+}
+
+.footer-sosmed li {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+    padding-top: 1px;
+  }
+
+
+
+/*--BAGIAN FOOTER--*/
+  
